@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0EEEA"
+    android:backgroundTint="#E0EEEA">
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="414dp"
+        android:layout_height="51dp"
+        android:contentDescription="Lines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_rect_ngulo_39"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="420dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="-13dp"
+        android:src="@drawable/ic_rect_ngulo_39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/ic_rect_ngulo_39"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/title5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="419dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="1dp"
+        android:drawableTint="#3F51B5"
+        android:text="Menú"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FBFAFA"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/mensaje"
+        android:layout_width="106dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="66dp"
+        android:background="@mipmap/ic_message_foreground"
+        android:onClick="irChats"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/calendario"
+        app:layout_constraintEnd_toStartOf="@+id/perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="#5C6164" />
+
+    <Button
+        android:id="@+id/perfil"
+        android:layout_width="106dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="66dp"
+        android:background="@mipmap/ic_user_foreground"
+        android:backgroundTint="#006B63"
+        android:onClick="IrEdPerfil"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/notificaciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mensaje"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/notificaciones"
+        android:layout_width="106dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="114dp"
+        android:background="@mipmap/ic_notif_foreground"
+        android:onClick="IrNotificaciones"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/calendario"
+        app:layout_constraintTop_toBottomOf="@+id/perfil"
+        app:strokeColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/calendario"
+        android:layout_width="106dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="114dp"
+        android:background="@mipmap/ic_calendar_foreground"
+        android:onClick="irCalendario"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/notificaciones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mensaje"
+        app:strokeColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="223dp"
+        android:layout_height="131dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView47"
+        app:srcCompat="@drawable/logo__blancoale" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
