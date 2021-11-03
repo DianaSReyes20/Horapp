@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="combo_materias">
+        <item>materias</item>
+        <item>programación avanzada</item>
+        <item>Aplicaciones Moviles</item>
+        <item>Mineria de Datos</item>
+        <item>Bases de datos</item>
+        <item>Gerencia de Proyectos</item>
+    </string-array>
+
+    <string-array name="combo_profesor">
+        <item>Profesor</item>
+        <item>Hector</item>
+        <item>Manuel</item>
+        <item>Cristian</item>
+        <item>Jesus</item>
+        <item>Raul</item>
+    </string-array>
+
+    <string-array name="combo_tema">
+        <item>Tema</item>
+        <item>asesoria</item>
+        <item>duda</item>
+        <item>nota</item>
+        <item>reclamo</item>
+    </string-array>
+
+    <string-array name="combo_hora">
+        <item>hora</item>
+    </string-array>
+</resources>

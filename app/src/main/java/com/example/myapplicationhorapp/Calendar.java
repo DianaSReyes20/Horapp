@@ -14,8 +14,8 @@ public class Calendar extends AppCompatActivity {
         setContentView(R.layout.calendario);
     }
 
-    public void IrCamera(View view) {
-        Intent Camera = new Intent(this, Camera.class);
-        startActivity(Camera);
+    public void IrConfiguracion(View view) {
+        Intent Configuracion = new Intent(this, Gallery.class);
+        startActivity(Configuracion);
     }
 }
